@@ -76,7 +76,23 @@ With experience in **React.js**, **Next.js**, **Django**, and **Java**, I focus 
 ### 🏆 Certifications  
 
 - Full Stack Development Trainee – Analyze Infotech *(2024)*  
-- Full Stack Development Intern – Analyze Infotech *(2025)*  
+- Full Stack Development Intern – Analyze Infotech *(2025)*
+<!-- Certificates - Responsive Layout -->
+<p align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <a href="https://devprakash001.github.io/Portfolio/images/certificates/full-stack.jpg" target="_blank">
+      <img src="https://devprakash001.github.io/Portfolio/images/certificates/full-stack.jpg" 
+           alt="Full Stack Development Trainee" 
+           style="max-width: 300px; width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+    </a>
+    <a href="https://devprakash001.github.io/Portfolio/images/certificates/Internship.jpg" target="_blank">
+      <img src="https://devprakash001.github.io/Portfolio/images/certificates/Internship.jpg" 
+           alt="Full Stack Development Internship" 
+           style="max-width: 300px; width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"/>
+    </a>
+  </div>
+</p>
+
 
 ---
 
