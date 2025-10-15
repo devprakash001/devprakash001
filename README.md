@@ -99,7 +99,6 @@ With experience in **React.js**, **Next.js**, **Django**, and **Java**, I focus 
 ### 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=devprakash001&show_icons=true&theme=radical" height="180em"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=devprakash001&theme=radical" height="180em"/>
 </p>
 
