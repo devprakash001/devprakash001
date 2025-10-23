@@ -25,12 +25,12 @@
 
 I'm a **Full Stack Web Developer** passionate about creating **responsive, scalable, and user-friendly** web applications. With hands-on experience in **React.js**, **Next.js**, **Django**, and **Java**, I focus on building clean, efficient, and production-ready solutions that solve real-world problems.
 
- 🔭 Currently improving my **Next.js & Django full-stack skills**<br>
- 🌱 Exploring **automation**, **cloud deployment**, and **UI/UX design**,<br>
- 🤝 Open to **freelance work**, **internships**, and **collaborative projects**<br>
- 💬 Ask me about **Full Stack Web Development** and **Project Deployment**<br>
- 📫 Reach me at: **[devsingh98011@gmail.com](mailto:devsingh98011@gmail.com)**<br>
- 🌐 Portfolio: **[devprakash001.github.io/Portfolio](https://devprakash001.github.io/Portfolio)**
+<br> 🔭 Currently improving my **Next.js & Django full-stack skills**
+<br> 🌱 Exploring **automation**, **cloud deployment**, and **UI/UX design**,
+<br> 🤝 Open to **freelance work**, **internships**, and **collaborative projects**
+<br> 💬 Ask me about **Full Stack Web Development** and **Project Deployment**
+<br> 📫 Reach me at: **[devsingh98011@gmail.com](mailto:devsingh98011@gmail.com)**
+<br> 🌐 Portfolio: **[devprakash001.github.io/Portfolio](https://devprakash001.github.io/Portfolio)**
 
 </div>
 
@@ -89,10 +89,10 @@ I'm a **Full Stack Web Developer** passionate about creating **responsive, scala
 A comprehensive virtual office management system designed for efficient task allocation and team collaboration.
 
 **Key Features:**
- ✅ Role-based access control (Admin, Manager, Employee)<br>
- ✅ Real-time task allocation and progress tracking<br>
- ✅ Responsive dashboard with analytics<br>
- ✅ Secure authentication system<br>
+<br> ✅ Role-based access control (Admin, Manager, Employee)
+<br> ✅ Real-time task allocation and progress tracking
+<br> ✅ Responsive dashboard with analytics
+<br> ✅ Secure authentication system
 
 ---
 
@@ -102,10 +102,10 @@ A comprehensive virtual office management system designed for efficient task all
 A complete online examination platform with advanced analytics and secure authentication.
 
 **Key Features:**
-- ✅ User authentication and authorization
-- ✅ Timed exam functionality with auto-submission
-- ✅ Detailed result analytics and performance tracking
-- ✅ Admin panel for exam management
+<br> ✅ User authentication and authorization
+<br> ✅ Timed exam functionality with auto-submission
+<br> ✅ Detailed result analytics and performance tracking
+<br> ✅ Admin panel for exam management
 
 ---
 
@@ -115,11 +115,11 @@ A complete online examination platform with advanced analytics and secure authen
 A responsive and feature-rich text manipulation web application with modern UI/UX.
 
 **Key Features:**
-- ✅ Text transformation (uppercase, lowercase, reverse, etc.)
-- ✅ Dark mode toggle for comfortable reading
-- ✅ Reading time calculator
-- ✅ Copy to clipboard functionality
-- ✅ Fully responsive design
+<br> ✅ Text transformation (uppercase, lowercase, reverse, etc.)
+<br> ✅ Dark mode toggle for comfortable reading
+<br> ✅ Reading time calculator
+<br> ✅ Copy to clipboard functionality
+<br> ✅ Fully responsive design
 
 </div>
 
