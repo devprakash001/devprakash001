@@ -26,10 +26,10 @@
 I'm a **Full Stack Web Developer** passionate about creating **responsive, scalable, and user-friendly** web applications. With hands-on experience in **React.js**, **Next.js**, **Django**, and **Java**, I focus on building clean, efficient, and production-ready solutions that solve real-world problems.
 
  🔭 Currently improving my **Next.js & Django full-stack skills**<br>
- 🌱 Exploring **automation**, **cloud deployment**, and **UI/UX design**
- 🤝 Open to **freelance work**, **internships**, and **collaborative projects**
- 💬 Ask me about **Full Stack Web Development** and **Project Deployment**
- 📫 Reach me at: **[devsingh98011@gmail.com](mailto:devsingh98011@gmail.com)**
+ 🌱 Exploring **automation**, **cloud deployment**, and **UI/UX design**,<br>
+ 🤝 Open to **freelance work**, **internships**, and **collaborative projects**<br>
+ 💬 Ask me about **Full Stack Web Development** and **Project Deployment**<br>
+ 📫 Reach me at: **[devsingh98011@gmail.com](mailto:devsingh98011@gmail.com)**<br>
  🌐 Portfolio: **[devprakash001.github.io/Portfolio](https://devprakash001.github.io/Portfolio)**
 
 </div>
@@ -89,10 +89,10 @@ I'm a **Full Stack Web Developer** passionate about creating **responsive, scala
 A comprehensive virtual office management system designed for efficient task allocation and team collaboration.
 
 **Key Features:**
-- ✅ Role-based access control (Admin, Manager, Employee)
-- ✅ Real-time task allocation and progress tracking
-- ✅ Responsive dashboard with analytics
-- ✅ Secure authentication system
+ ✅ Role-based access control (Admin, Manager, Employee)<br>
+ ✅ Real-time task allocation and progress tracking<br>
+ ✅ Responsive dashboard with analytics<br>
+ ✅ Secure authentication system<br>
 
 ---
 
