@@ -25,7 +25,7 @@
 
 I'm a **Full Stack Web Developer** passionate about creating **responsive, scalable, and user-friendly** web applications. With hands-on experience in **React.js**, **Next.js**, **Django**, and **Java**, I focus on building clean, efficient, and production-ready solutions that solve real-world problems.
 
- 🔭 Currently improving my **Next.js & Django full-stack skills**
+ 🔭 Currently improving my **Next.js & Django full-stack skills**<br>
  🌱 Exploring **automation**, **cloud deployment**, and **UI/UX design**
  🤝 Open to **freelance work**, **internships**, and **collaborative projects**
  💬 Ask me about **Full Stack Web Development** and **Project Deployment**
