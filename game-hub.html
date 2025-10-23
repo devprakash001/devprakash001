@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Game Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: #00D4FF;
+            font-family: 'Courier New', monospace;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .title {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px #00D4FF;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00D4FF; }
+            to { text-shadow: 0 0 30px #00D4FF, 0 0 40px #00D4FF; }
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #FF00FF;
+            margin-bottom: 30px;
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .game-card {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00D4FF;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.5);
+            border-color: #FF00FF;
+        }
+        
+        .game-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .game-card:hover::before {
+            left: 100%;
+        }
+        
+        .game-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .game-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #00D4FF;
+        }
+        
+        .game-description {
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        
+        .play-button {
+            background: linear-gradient(45deg, #00D4FF, #FF00FF);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .play-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.5);
+        }
+        
+        .terminal {
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #00D4FF;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            position: relative;
+        }
+        
+        .terminal::before {
+            content: '> ';
+            color: #00D4FF;
+            font-weight: bold;
+        }
+        
+        .cyber-line {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00D4FF, #FF00FF, #00D4FF, transparent);
+            margin: 30px 0;
+            animation: flow 3s linear infinite;
+        }
+        
+        @keyframes flow {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00D4FF;
+            color: #00D4FF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: 'Courier New', monospace;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: #00D4FF;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <a href="README.md" class="back-button">← Back to Portfolio</a>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🎮 CYBER GAME HUB 🎮</h1>
+            <p class="subtitle">Welcome to the Matrix of Mini-Games</p>
+        </div>
+        
+        <div class="cyber-line"></div>
+        
+        <div class="games-grid">
+            <div class="game-card" onclick="playSnake()">
+                <span class="game-icon">🐍</span>
+                <h3 class="game-title">Cyber Snake</h3>
+                <p class="game-description">Classic snake game with cyber aesthetics. Navigate through the digital maze and grow your serpent!</p>
+                <a href="snake-game.html" class="play-button">Play Now</a>
+            </div>
+            
+            <div class="game-card" onclick="playTicTacToe()">
+                <span class="game-icon">🎯</span>
+                <h3 class="game-title">AI Tic-Tac-Toe</h3>
+                <p class="game-description">Battle against the AI in this futuristic version of the classic game. Can you outsmart the machine?</p>
+                <a href="#" class="play-button" onclick="playTicTacToe()">Play Now</a>
+            </div>
+            
+            <div class="game-card" onclick="playMemory()">
+                <span class="game-icon">🧩</span>
+                <h3 class="game-title">Memory Matrix</h3>
+                <p class="game-description">Test your memory with this cyber-themed card matching game. Match the glowing symbols!</p>
+                <a href="#" class="play-button" onclick="playMemory()">Play Now</a>
+            </div>
+            
+            <div class="game-card" onclick="playSpaceInvaders()">
+                <span class="game-icon">🚀</span>
+                <h3 class="game-title">Space Invaders</h3>
+                <p class="game-description">Defend Earth from alien invaders in this retro-futuristic shooter game!</p>
+                <a href="#" class="play-button" onclick="playSpaceInvaders()">Play Now</a>
+            </div>
+        </div>
+        
+        <div class="terminal">
+            <div id="terminal-output">
+                <div>╔══════════════════════════════════════════════════════════════╗</div>
+                <div>║                    🎮 CYBER TERMINAL 🎮                      ║</div>
+                <div>╠══════════════════════════════════════════════════════════════╣</div>
+                <div>║  System Status: ONLINE                                      ║</div>
+                <div>║  Games Available: 4                                         ║</div>
+                <div>║  Player Level: CYBER WARRIOR                                ║</div>
+                <div>║                                                              ║</div>
+                <div>║  Type 'help' for commands or click a game above!            ║</div>
+                <div>╚══════════════════════════════════════════════════════════════╝</div>
+            </div>
+        </div>
+        
+        <div class="cyber-line"></div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <p style="color: #FF00FF; font-size: 1.1rem;">
+                🎯 <strong>Challenge Mode:</strong> Complete all games to unlock the secret level!
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function playSnake() {
+            window.open('snake-game.html', '_blank');
+        }
+        
+        function playTicTacToe() {
+            alert('🎯 Tic-Tac-Toe coming soon! This will be an AI-powered version with cyber aesthetics.');
+        }
+        
+        function playMemory() {
+            alert('🧩 Memory Matrix coming soon! Test your memory with glowing cyber cards.');
+        }
+        
+        function playSpaceInvaders() {
+            alert('🚀 Space Invaders coming soon! Defend Earth from alien invaders!');
+        }
+        
+        // Add some terminal interactivity
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                const terminal = document.getElementById('terminal-output');
+                const newLine = document.createElement('div');
+                newLine.textContent = '> Command not recognized. Type "help" for available commands.';
+                terminal.appendChild(newLine);
+                terminal.scrollTop = terminal.scrollHeight;
+            }
+        });
+        
+        // Add some floating particles effect
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.style.position = 'fixed';
+            particle.style.width = '2px';
+            particle.style.height = '2px';
+            particle.style.background = '#00D4FF';
+            particle.style.borderRadius = '50%';
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = '100vh';
+            particle.style.pointerEvents = 'none';
+            particle.style.zIndex = '1';
+            document.body.appendChild(particle);
+            
+            particle.animate([
+                { transform: 'translateY(0px)', opacity: 1 },
+                { transform: 'translateY(-100vh)', opacity: 0 }
+            ], {
+                duration: 3000,
+                easing: 'linear'
+            }).onfinish = () => particle.remove();
+        }
+        
+        // Create particles periodically
+        setInterval(createParticle, 2000);
+    </script>
+</body>
+</html>
