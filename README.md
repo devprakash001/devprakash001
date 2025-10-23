@@ -142,35 +142,6 @@ A responsive and feature-rich text manipulation web application with modern UI/U
 
 <div align="center">
 
-## 🎮 Mini-Game: Cyber Terminal
-
-<img src="https://raw.githubusercontent.com/devprakash001/devprakash001/main/assets/cyberpunk-divider.svg" alt="divider" width="100%" height="70">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                    🎮 CYBER TERMINAL 🎮                      ║
-╠══════════════════════════════════════════════════════════════╣
-║  Welcome to the Matrix! Choose your path:                   ║
-║                                                              ║
-║  [1] 🐍 Snake Game (Classic)                                ║
-║  [2] 🎯 Tic-Tac-Toe (AI Battle)                             ║
-║  [3] 🚀 Space Invaders (Retro)                              ║
-║  [4] 🧩 Memory Puzzle (Challenge)                           ║
-║                                                              ║
-║  Type your choice (1-4) and press ENTER...                  ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-**🎯 Quick Play:** [Click here to play Snake Game](https://devprakash001.github.io/snake-game)
-
-**🎮 Full Game Collection:** [Visit Game Hub](https://devprakash001.github.io/game-hub)
-
-</div>
-
----
-
-<div align="center">
-
 ## 📈 GitHub Statistics
 
 <img src="https://raw.githubusercontent.com/devprakash001/devprakash001/main/assets/cyberpunk-divider.svg" alt="divider" width="100%" height="70">
